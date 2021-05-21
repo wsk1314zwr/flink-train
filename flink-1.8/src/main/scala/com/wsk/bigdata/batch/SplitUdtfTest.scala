@@ -36,7 +36,7 @@ object SplitUdtfTest {
         // tableEnv.sqlQuery("select * FROM `user`  INNER JOIN  grade on  `user`.id = grade.userId ")
 //        tableEnv.sqlQuery("select `user`.*,grade.name,grade.fraction FROM `user`  INNER JOIN  grade on  " +
 //                "`user`.id = grade.userId ")
-        tableEnv.sqlQuery("select '' as a ,`user`.id ,cast('2011-05-09' as datetime) as t  from `user` group by " +
+        tableEnv.sqlQuery("select '' as a ,`user`.id as b  from `user` group by " +
                 "`user`.id ")
                 .first(10).print()
 //        env.execute()
