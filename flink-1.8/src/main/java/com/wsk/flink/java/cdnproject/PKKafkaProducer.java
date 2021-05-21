@@ -1,4 +1,4 @@
-package com.wsk.bigdata.java.cdnproject;
+package com.wsk.flink.java.cdnproject;
 
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;

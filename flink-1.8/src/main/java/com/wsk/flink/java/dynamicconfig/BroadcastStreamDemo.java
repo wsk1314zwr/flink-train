@@ -1,4 +1,4 @@
-package com.wsk.bigdata.java.dynamicconfig;
+package com.wsk.flink.java.dynamicconfig;
 
 import org.apache.flink.api.common.state.MapStateDescriptor;
 import org.apache.flink.api.common.typeinfo.BasicTypeInfo;
