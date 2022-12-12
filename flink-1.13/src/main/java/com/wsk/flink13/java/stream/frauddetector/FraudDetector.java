@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-package com.wsk.flink13.java.frauddetector;
+package com.wsk.flink13.java.stream.frauddetector;
 
 import org.apache.flink.streaming.api.functions.KeyedProcessFunction;
 import org.apache.flink.util.Collector;
